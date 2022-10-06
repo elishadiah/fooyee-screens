@@ -7,11 +7,6 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <style>
-      * {
-        font-family: 'Montserrat';
-      }
-    </style>
   </head>
   <body>
     <div class="box-border py-10 h-[1920px] overflow-hidden mx-auto">
@@ -59,17 +54,18 @@
             <div class="mt-14">
               <div>
                 <div class="flex gap-x-5">
-                  <div class="w-[344px]">
+                  <div class="w-[344px] bg-transparent">
                     <input
                       type="text"
                       name=""
                       id=""
-                      class="w-full border h-[90px] overflow-hidden text-4xl box-border px-5 rounded-full placeholder:capitalize capitalize"
+                      class="w-full border-[3px] border-[#313131] text-[#848484] h-[90px] bg-white overflow-hidden text-4xl box-border px-5 rounded-full placeholder:capitalize capitalize outline-none"
                       placeholder="room №..."
                     />
                   </div>
+
                   <div
-                    class="w-[228px] flex items-center border gap-x-5 h-[90px] overflow-hidden text-4xl box-border px-5 rounded-full"
+                    class="w-[228px] flex items-center border-[3px] border-[#313131] text-[#848484] bg-white gap-x-5 h-[90px] overflow-hidden text-4xl box-border px-5 rounded-full"
                   >
                     <div class="w-20 ml-2">
                       <img
@@ -83,13 +79,14 @@
                         type="text"
                         name=""
                         id=""
-                        class="w-full h-full placeholder:capitalize capitalize all-inherit"
+                        class="w-full h-full placeholder:capitalize capitalize all-inherit bg-transparent outline-none"
                         placeholder="Today"
                       />
                     </div>
                   </div>
+
                   <div
-                    class="w-[228px] flex items-center border gap-x-5 h-[90px] overflow-hidden text-4xl box-border px-5 rounded-full"
+                    class="w-[228px] flex items-center border-[3px] border-[#313131] text-[#848484] bg-white gap-x-5 h-[90px] overflow-hidden text-4xl box-border px-5 rounded-full"
                   >
                     <div class="w-20 ml-2">
                       <img
@@ -103,20 +100,21 @@
                         type="text"
                         name=""
                         id=""
-                        class="w-full h-full placeholder:capitalize capitalize all-inherit"
+                        class="w-full h-full placeholder:capitalize capitalize all-inherit bg-transparent outline-none"
                         placeholder="Today"
                       />
                     </div>
                   </div>
+
                   <div
-                    class="w-[177px] flex items-center border gap-x-5 h-[90px] overflow-hidden text-4xl box-border px-5 rounded-full"
+                    class="w-[177px] flex items-center border-[3px] border-[#313131] text-[#848484] gap-x-5 h-[90px] overflow-hidden text-4xl box-border bg-white px-5 rounded-full"
                   >
                     <div>
                       <input
                         type="text"
                         name=""
                         id=""
-                        class="w-full h-full placeholder:capitalize capitalize all-inherit"
+                        class="w-full h-full bg-transparent placeholder:capitalize capitalize all-inherit outline-none"
                         placeholder="2 Adults"
                       />
                     </div>
@@ -130,7 +128,7 @@
             <div class="w-[432px]">
               <a
                 href="/check-in.html"
-                class="bg-[#313131] uppercase block w-full h-[94px] rounded-full text-white px-10 flex justify-center items-center text-4xl"
+                class="bg-[#313131] uppercase font-semibold block w-full h-[94px] rounded-full text-white px-10 flex justify-center items-center text-4xl"
               >
                 <span class="block">Book</span>
               </a>
